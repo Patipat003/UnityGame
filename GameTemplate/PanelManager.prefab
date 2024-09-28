@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4771268006954581020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3370660524985666458}
+  - component: {fileID: 7450996812785009843}
+  - component: {fileID: 5849773109716840194}
+  - component: {fileID: 29037063695650413}
+  m_Layer: 0
+  m_Name: PanelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3370660524985666458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771268006954581020}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.2588186, z: -0, w: 0.965926}
+  m_LocalPosition: {x: 152.34607, y: 40.632812, z: 184.77321}
+  m_LocalScale: {x: 0.9013, y: 0.9116, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!114 &7450996812785009843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771268006954581020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6c27689c16a264f9acf933b592b07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelBehaviour: 1
+  useBackButton: 0
+  activeNestedPanelBackButtons: []
+  activeCanvas: {fileID: 0}
+  activeNavbarImage: {fileID: 0}
+  activeNavigationButtonColor:
+    serializedVersion: 2
+    rgba: 4284964961
+  inactiveNavigationButtonColor:
+    serializedVersion: 2
+    rgba: 4282464056
+--- !u!114 &5849773109716840194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771268006954581020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206bd0cf00112dd4985bd93ba74618c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tabletMenu: {fileID: 0}
+  cameraController: {fileID: 0}
+  playerController: {fileID: 0}
+--- !u!114 &29037063695650413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771268006954581020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4d5064d5500544a91fda62d8ab5fce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  galleryPanel: {fileID: 0}
+  photoPrefab: {fileID: 0}
+  PhotoMode: {fileID: 0}
+  Sample_canvases: {fileID: 0}
+  gameUi: {fileID: 0}
+  scoreText: {fileID: 0}
+  mainCamera: {fileID: 0}
+  renderTexture: {fileID: 8400000, guid: 92767cacc54d28646877ae1d1ecd6536, type: 2}
+  audioSource: {fileID: 0}
+  photoSound: {fileID: 8300000, guid: 295c082662d72684384f79ae460369d1, type: 3}
