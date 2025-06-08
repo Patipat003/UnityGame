@@ -1,5 +1,7 @@
 # Crime Investigation (Unity Project)
 
+🎓 **Final Year Project (University)**
+
 ## Description
 
 **Crime Investigation** is a 3D crime investigation game developed using Unity. The game features various systems that simulate real investigative scenarios in an interactive environment.
